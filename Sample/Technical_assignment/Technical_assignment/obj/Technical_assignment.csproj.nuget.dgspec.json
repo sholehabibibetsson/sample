@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\sample\\Sample\\Technical_assignment\\Technical_assignment\\Technical_assignment.csproj": {}
+  },
+  "projects": {
+    "C:\\sample\\Sample\\Technical_assignment\\Technical_assignment\\Technical_assignment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sample\\Sample\\Technical_assignment\\Technical_assignment\\Technical_assignment.csproj",
+        "projectName": "Technical_assignment",
+        "projectPath": "C:\\sample\\Sample\\Technical_assignment\\Technical_assignment\\Technical_assignment.csproj",
+        "packagesPath": "C:\\Users\\shha01\\.nuget\\packages\\",
+        "outputPath": "C:\\sample\\Sample\\Technical_assignment\\Technical_assignment\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shha01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget-techsson.bde.local/nuget/Default": {},
+          "https://nuget-techsson.bde.local/nuget/OBG": {},
+          "https://nuget-techsson.bde.local/nuget/Techsson.3rdParty": {},
+          "https://nuget-techsson.bde.local/nuget/Techsson.Internal": {},
+          "https://nuget-techsson.bde.local/nuget/Techsson.Internal.Alpha": {},
+          "https://nuget-techsson.bde.local/nuget/Techsson.Public": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
